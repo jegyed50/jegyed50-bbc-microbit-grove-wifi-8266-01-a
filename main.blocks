@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="I:PAJ,7kLd;CWU?Y93XV" x="20" y="20"></block><block type="device_forever" id="TrYQDMcJ$AB.~=ng=%a%" x="225" y="20"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="]qDvIT)E*p6xQbact32y" x="-335" y="-5"><statement name="HANDLER"><block type="esp8266_init" id="`(D/aWjXu0z:)NmjS=R9"><field name="tx">SerialPin.P16</field><field name="rx">SerialPin.P15</field><field name="baudrate">BaudRate.BaudRate115200</field><next><block type="controls_if" id="fS2bTe/_av$myoES76a`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="j~{8XR=5Ks;/@U*[h;r4"><field name="BOOL">TRUE</field></shadow><block type="esp8266_is_esp8266_initialized" id="`.v4:!;*~%wi~{fwQDYj"></block></value><statement name="DO0"><block type="esp8266_connect_wifi" id="C4onDemrAX72w;xE)k@["><value name="ssid"><shadow type="text" id="4VnA.-7tq57bxg)p(*kU"><field name="TEXT">TP-LINK_WiFi_2</field></shadow></value><value name="password"><shadow type="text" id="]K=-`zg*aOJ+F}F+?koP"><field name="TEXT">Kajdacs1</field></shadow></value><next><block type="device_show_leds" id="%[adyveh+rS1oy/_F}p,"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="controls_if" id=",w/r|v$XRLfEnpn65MHl"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="WT;;YfoGJYYjF{T~z3Ez"><field name="BOOL">TRUE</field></shadow><block type="esp8266_is_wifi_connected" id=",Y472pt5Rm)]gXjYFZ3E"></block></value><statement name="DO0"><block type="device_show_leds" id="zXyV6M]k[R)dtAhNqdN+"><field name="LEDS">`
+        # # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="N(MJ%$%(,%DOGVaBY-9q"><field name="i">IconNames.No</field></block></statement></block></next></block></next></block></statement><statement name="ELSE"><block type="basic_show_icon" id="Q/c;Dq6w-CXdWhhUptf!"><field name="i">IconNames.No</field></block></statement></block></next></block></statement></block><block type="device_forever" id="^LtFH[D]E+qRmsZu/F93" x="438" y="40"><comment pinned="false" h="80" w="160">jegyed50-bbc-microbit-Grove-WiFi-8266-01-A</comment></block></xml>
