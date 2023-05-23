@@ -16,6 +16,18 @@ if (esp8266.isESP8266Initialized()) {
             . . . . .
             . . . . .
             `)
+        esp8266.sendTelegramMessage("5874557565:AAFtysuEtoL3dDpyvUgItQyj9eayF3YCQlg", "5970729327 ", "Test 03")
+        if (esp8266.isTelegramMessageSent()) {
+            basic.showLeds(`
+                # # # . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+        } else {
+            basic.showIcon(IconNames.No)
+        }
     } else {
         basic.showIcon(IconNames.No)
     }
